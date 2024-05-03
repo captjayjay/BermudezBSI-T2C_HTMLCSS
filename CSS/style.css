@@ -1,0 +1,137 @@
+/* External CSS */
+body{
+	background-color: darkgreen;
+	font-family: Century Gothic;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	background-color: whitesmoke;
+	width: 1000px;
+	margin: auto;
+	padding: 20px;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+}
+.header{
+	padding: 15px;
+	background-color: ghostwhite;
+}
+.nav{
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+.nav li{	
+	list-style-type: none;
+	display: inline-block;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 80px;
+	padding: 10px;
+}
+.nav ul li a.active{
+	color: darkgreen;
+}
+.nav ul li a:hover{
+	color: darkgreen;
+}
+.main{
+	min-height: 500px;
+}
+.left-side-bar{
+	width: 150px;
+	float: left;
+	border: 3px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+}
+.left-side-bar h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: darkgreen;
+}
+.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: whitesmoke;
+	background-color: darkgreen;
+}
+.left-side-bar ul li a:hover{
+	color: darkgreen;
+	background-color: white;
+}
+.content{
+	width: 600px;
+	float: left;
+	min-height: 500px;
+	margin: 10px;
+}
+.content h1{
+	padding: 0;
+	margin: 0;
+	border-bottom: 3px solid black;
+	color: darkgreen;
+}
+.content h2{
+	color: darkgreen;
+	text-align: justify;
+	line-height: 1.5;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	border-top: 3px solid black;
+}
+
+form{
+	width: 60%;
+	margin: 0 auto;
+	background-color: darkgreen;
+	border: 2px solid black;
+	border-radius: 10px;
+	color: white;
+	padding: 20px;
+	width: 930px;
+	text-align: center;
+}
+form input{
+	padding: 10px;
+	width: 800px;
+}
+input[type="radio"] {
+        width: 20px;
+}
+form button{
+	background-color: white;
+	color: black;
+	padding: 10px 10px;
+}
+.table{
+	text-align: center;
+}
+.table1{
+	margin: 0 auto;
+}
